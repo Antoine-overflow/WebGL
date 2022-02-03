@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+        <h3 class="animate-charcter"> Select the triangle you want</h3>
+        </div>
+    </div>
+    </div>
+    <input type="radio" name="triangle" value="one_color" id="one"> 
+    <label for="one_color">One color triangle</label><br>
+    <input type="radio" name="triangle" value="multi_color" id="multi">
+    <label for="multi_color">Multi color triangle</label>
+    <p>
+        <button id="btn">Show</button>
+    </p>
+    <canvas width='640' height='480'>
+    <script src='triangle.js'></script>
+</body>
+</html>
